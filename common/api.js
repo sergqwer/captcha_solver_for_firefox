@@ -7,7 +7,7 @@ class TwoCaptcha {
 
         let defaultOptions = {
             apiKey: "",
-            service: "goodxevilpay.shop",
+            service: "goodxevilpay.pp.ua",
             softId: 0,
             defaultTimeout: 120,
             recaptchaTimeout: 600,

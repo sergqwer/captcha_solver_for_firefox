@@ -3,7 +3,7 @@ var Config = {
     default: {
         isPluginEnabled: true,
         apiKey: null,
-        valute: "USD",
+        valute: "RUB",
         email: null,
         autoSubmitForms: false,
         submitFormsDelay: 0,
@@ -37,7 +37,7 @@ var Config = {
         proxy: "",
         normalSources: [],
         autoSubmitRules: [{
-            url_pattern: "(2|ru)captcha.com/demo",
+            url_pattern: "goodxevilpay.pp.ua/demo",
             code: "" +
                 '{"type":"source","value":"document"}' + "\n" +
                 '{"type":"method","value":"querySelector","args":["button[type=submit]"]}' + "\n" +

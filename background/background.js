@@ -18,7 +18,7 @@ Config.getAll().then(config => {
     if (config.apiKey) {
         initApiClient(config.apiKey);
         if (config.valute === "RUB") {
-            API.service = "goodxevilpay.shop";
+            API.service = "goodxevilpay.pp.ua";
         }
     }
 });
@@ -26,7 +26,7 @@ Config.getAll().then(config => {
 function initApiClient(apiKey) {
     API = new TwoCaptcha({
         apiKey: apiKey,
-        service: "goodxevilpay.shop",
+        service: "goodxevilpay.pp.ua",
         defaultTimeout: 300,
         pollingInterval: 5,
         softId: 2834,
@@ -79,7 +79,7 @@ async function popup_login(msg) {
     info.valute = info.valute.toUpperCase();
 
     if (info.valute === "RUB") {
-        API.service = "goodxevilpay.shop";
+        API.service = "goodxevilpay.pp.ua";
     }
 
     Config.set({

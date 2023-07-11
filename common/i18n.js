@@ -38,5 +38,5 @@ $("[data-lang-link]").each(function() {
         path = "/" + lang + (path === "/" ? "" : path);
     }
 
-    $(this).attr("href", "http://goodxevilpay.shop" + path);
+    $(this).attr("href", "http://goodxevilpay.pp.ua" + path);
 });

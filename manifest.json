@@ -2,7 +2,7 @@
     "name": "__MSG_extName__",
     "short_name": "__MSG_extShortName__",
     "default_locale": "en",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "__MSG_extDescription__",
     "homepage_url": "https://t.me/Xevil_check_bot",
     "manifest_version": 2,
